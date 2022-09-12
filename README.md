@@ -1,5 +1,5 @@
 #### API 
-
+```
 from django.shortcuts import render
 from decouple import config
 import requests
@@ -15,7 +15,7 @@ def home(request):
     content = response.json()
 
     print(content)
-
+```
 API env file içine ekledik, requests kurduk ve import ettik,
 
 pip install requests
